@@ -13,6 +13,11 @@
   margin: 10px;
   flex-basis: 250px;
   flex-grow: 1;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
 }
 
 .card img {
