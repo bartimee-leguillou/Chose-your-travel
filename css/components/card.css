@@ -13,10 +13,9 @@
   margin: 10px;
   flex-basis: 250px;
   flex-grow: 1;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card:hover {
+.cards:hover {
   transform: translateY(-3px);
   box-shadow: 0px 15px 40px rgba(0,0,0,0.15);
 }
