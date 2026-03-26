@@ -4,6 +4,14 @@
 }
 
 .card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card {
   padding: 20px;
   display: flex;
   align-items: center;
